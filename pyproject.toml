@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "salestax"
-version = "1.0.0beta2"
+version = "1.0.0beta3"
 license = "GPL-3.0"
 authors = [
   { name="Justin Kumpe", email="jakumpe@kumpes.com" },
@@ -21,5 +21,5 @@ classifiers = [
 ]
 dependencies = [
   'requests',
-  'bs4'
+  'beautifulsoup4'
 ]
