@@ -3,16 +3,16 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "kumpeapi"
-version = "1.0.1"
+name = "salestax"
+version = "1.0.0beta1"
 license = "GPL-3.0"
 authors = [
   { name="Justin Kumpe", email="jakumpe@kumpes.com" },
 ]
-description = "KumpeAPI Functions"
+description = "Get Sales Tax Rates. Currently only supports Arkansas (because that is the only one I need) but I am open to pull requests for other states."
 readme = "README.md"
 requires-python = ">=3.7"
-repository = "https://github.com/kumpeapps/KumpeApps-API-Python"
+repository = "https://github.com/kumpeapps/salestax-python"
 classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
@@ -21,7 +21,5 @@ classifiers = [
 ]
 dependencies = [
   'requests',
-  'pymysql',
-  'datetime',
-  'flask'
+  'bs4'
 ]
