@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "salestax"
-version = "1.0.0beta1"
+version = "1.0.0beta2"
 license = "GPL-3.0"
 authors = [
   { name="Justin Kumpe", email="jakumpe@kumpes.com" },
@@ -15,7 +15,7 @@ requires-python = ">=3.7"
 repository = "https://github.com/kumpeapps/salestax-python"
 classifiers = [
     "Programming Language :: Python :: 3",
-    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "License :: OSI Approved :: MIT",
     "Operating System :: OS Independent",
     "Natural Language :: English"
 ]
